@@ -12,6 +12,7 @@ Install-Module ImportExcel # Requires Elevation (Installs for everyone)
 **Usage:**
 
 ```Powershell
-CamCardAutoTask {.\Data\Personal_Contacts.xlsx} {.\Data\AutoTaskFromCamCard.csv}
-SalesDoubleAutoTask {.\Data\SalesDoubleData.xlsx} {.\Data\AutoTaskFromSalesDouble.csv}
+CamCardToAutoTask {.\Data\Personal_Contacts.xlsx} {.\Data\AutoTaskFromCamCard.csv}
+SalesDoubleToAutoTask {.\Data\SalesDoubleData.xlsx} {.\Data\AutoTaskFromSalesDouble.csv}
+SalesDoubleListToAutoTask {.\Data\SalesDoubleList.xlsx} {.\Data\AutoTaskFromSalesDouble.csv}
 ```
